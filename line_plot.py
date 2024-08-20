@@ -1,0 +1,13 @@
+import numpy as np
+x = np.random.randint(0, 100, 5)
+y = np.random.randint(0, 100, 5)
+z = np.random.randint(0, 100, 5)
+print(x)
+print(y)
+print(z)
+plt.plot(x,y,marker='*',color='red',linestyle='dashed')
+plt.plot(y,z,marker='*',color='blue')
+plt.legend(["india","srilanka"])
+plt.xlabel('x axis')
+plt.ylabel('y axis')
+plt.show()
